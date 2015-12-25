@@ -1,0 +1,19 @@
+"3.10.1 (created: 2015/08/25 00:41:59)
+
+set scroll=55
+source! /home/gonz/.vimperatorrc.local
+
+" Set l/h to switch tabs
+map       l   gt
+map       h   gT
+
+" Set standard scrolling to work on 10/25 lines at a time
+noremap   J   25j
+noremap   K   25k
+noremap   j   10j
+noremap   k   10k
+
+" Set hintkeys
+set hintchars=aoeuhl
+
+" vim: set ft=vimperator:
